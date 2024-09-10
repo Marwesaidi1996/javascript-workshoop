@@ -122,3 +122,9 @@ function isPrime(num) {
 const n = 20;
 console.log(`${n} is prime: ${isPrime(n)}`);
 
+// function filtre
+function evennumber(arr) {
+    return arr.filter(x => x>10)
+}
+const numbers1=[20,,2,4,88,99,55,66,2,5,4,7]
+console.log(evennumber(numbers1))
